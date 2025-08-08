@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.785761ec.css",
+    "main.js": "/static/js/main.8c0949ec.js",
+    "static/media/Aboutme.png": "/static/media/Aboutme.32cdf952649afb1db337.png",
+    "static/media/homepageimage.png": "/static/media/homepageimage.6b1e9fbfbdd02da80de5.png",
+    "static/media/samsung.png": "/static/media/samsung.708d377e290cc3bfde95.png",
+    "static/media/notes.png": "/static/media/notes.7a95795a2941d252fe5e.png",
+    "static/media/mini.png": "/static/media/mini.0f1b98bf4b2d9f182eff.png",
+    "index.html": "/index.html",
+    "main.785761ec.css.map": "/static/css/main.785761ec.css.map",
+    "main.8c0949ec.js.map": "/static/js/main.8c0949ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.785761ec.css",
+    "static/js/main.8c0949ec.js"
+  ]
+}
