@@ -2,6 +2,7 @@ import { useState } from "react";
 import samsung from "../asset/samsung.png"
 import mini from "../asset/mini.png"
 import note from "../asset/notes.png"
+import snap from "../asset/snap.png"
 
 const projectData = {
   starter: [
@@ -50,9 +51,9 @@ const projectData = {
       code: "https://github.com/Rishiiiee/NotesWeb_fe",
     },
     {
-      title: "E-commerce API",
-      description: "A backend e-commerce REST API using Express and MongoDB.",
-      img: "/images/ecommerce.png",
+      title: "SnapCart – Full-Stack E-Commerce Application",
+      description: " full-stack e-commerce web application built with React.js, Node.js, Express, and MongoDB, featuring secure authentication, cart management, and Razorpay payment integration.",
+      img: snap,
       tags: ["Node.js", "MongoDB", "Express"],
       demo: "#",
       code: "#",
