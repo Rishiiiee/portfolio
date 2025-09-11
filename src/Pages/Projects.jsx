@@ -55,8 +55,8 @@ const projectData = {
       description: " full-stack e-commerce web application built with React.js, Node.js, Express, and MongoDB, featuring secure authentication, cart management, and Razorpay payment integration.",
       img: snap,
       tags: ["Node.js", "MongoDB", "Express"],
-      demo: "#",
-      code: "#",
+      demo: "https://snap-cart-fe.vercel.app/",
+      code: "https://github.com/Rishiiiee/SnapCart_Fe",
     },
   ],
 };
