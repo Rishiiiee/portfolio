@@ -7,20 +7,20 @@ import snap from "../asset/snap.png"
 const projectData = {
   starter: [
     {
-      title: "Sample Calculator",
-      description: "A basic calculator using HTML, CSS, and JS. Clean and responsive layout.",
+      title: "React Groceries-lisgt",
+      description: "A basic react groceries list using Axios ,React and JS. Clean and responsive layout.",
       img: "/images/calculator.png",
-      tags: ["HTML", "CSS", "JavaScript"],
-      demo: "#",
-      code: "#",
+      tags: ["React", "CSS", "JavaScript"],
+      demo: "Demo not available",
+      code: "https://github.com/Rishiiiee/react-groceries-list",
     },
     {
-      title: "Weather App",
-      description: "Weather forecast app using OpenWeatherMap API and plain JS.",
+      title: "React Country-list Api",
+      description: "A basic react app using fetch api .",
       img: "/images/weather.png",
-      tags: ["HTML", "CSS", "JS", "API"],
-      demo: "#",
-      code: "#",
+      tags: ["React", "CSS", "JS", "API"],
+      demo: "Demo not available",
+      code: "https://github.com/Rishiiiee/react-country-list",
     },
   ],
   frontend: [
