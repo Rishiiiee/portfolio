@@ -62,7 +62,7 @@ const projectData = {
 };
 
 function Projects() {
-  const [activeTab, setActiveTab] = useState("starter");
+  const [activeTab, setActiveTab] = useState("fullstack");
 
   return (
     <div className="w-full max-w-screen-xl mx-auto px-4 md:px-8 py-16">
