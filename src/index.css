@@ -2,6 +2,92 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ─── Font Families ─── */
+:root {
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'Space Grotesk', sans-serif;
+}
+
 body {
+  font-family: var(--font-body);
   @apply transition-colors duration-300;
+}
+
+/* ─── Loader Animations ─── */
+@keyframes fadeInName {
+  0%   { opacity: 0; letter-spacing: 0.3em; transform: translateY(12px); }
+  100% { opacity: 1; letter-spacing: 0.08em; transform: translateY(0); }
+}
+
+@keyframes loaderSlideUp {
+  0%   { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
+}
+
+@keyframes loaderReveal {
+  0%   { opacity: 1; visibility: visible; }
+  99%  { opacity: 1; visibility: visible; }
+  100% { opacity: 0; visibility: hidden; }
+}
+
+@keyframes cursorBlink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+/* ─── Hero Text Reveal ─── */
+@keyframes heroSlideUp {
+  0%   { opacity: 0; transform: translateY(60px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes heroFadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+  0%   { opacity: 0; transform: translateX(-40px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+/* ─── Utility Classes ─── */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+.animate-fade-in-name {
+  animation: fadeInName 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-loader-slide-up {
+  animation: loaderSlideUp 0.9s cubic-bezier(0.76, 0, 0.24, 1) forwards;
+}
+
+.animate-hero-slide-up {
+  animation: heroSlideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-hero-fade-in {
+  animation: heroFadeIn 0.7s ease forwards;
+}
+
+.cursor-blink::after {
+  content: '|';
+  animation: cursorBlink 0.8s step-end infinite;
+}
+
+/* ─── Glow pulse for robot image (light mode) ─── */
+@keyframes glowPulse {
+  0%, 100% { opacity: 0.6; transform: scale(0.95); }
+  50%       { opacity: 1;   transform: scale(1.05); }
+}
+
+/* ─── Scroll hide overflow during loader ─── */
+.loader-active {
+  overflow: hidden;
 }

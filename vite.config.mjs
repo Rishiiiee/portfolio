@@ -1,0 +1,18 @@
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
+export default defineConfig({
+  plugins: [react()],
+  server: {
+    host: true,
+    allowedHosts: [
+      "company-helper-barracuda.ngrok-free.dev",
+      ".ngrok-free.dev",
+      ".ngrok-free.app",
+      ".ngrok.io",
+    ],
+  },
+  build: {
+    outDir: "build",
+  },
+});

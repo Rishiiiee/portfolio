@@ -1,1 +1,32 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><title>React + Tailwind</title><meta name="viewport" content="width=device-width,initial-scale=1"/><script defer="defer" src="/static/js/main.8c0949ec.js"></script><link href="/static/css/main.785761ec.css" rel="stylesheet"></head><body><div id="root"></div></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rishi Shrivastav | Portfolio</title>
+    <script>
+      (function () {
+        try {
+          var savedTheme = localStorage.getItem("theme");
+          var themeVersion = localStorage.getItem("theme-version");
+          if (themeVersion !== "dark-default") {
+            localStorage.setItem("theme", "dark");
+            localStorage.setItem("theme-version", "dark-default");
+            document.documentElement.classList.add("dark");
+            return;
+          }
+          if (savedTheme !== "light") {
+            document.documentElement.classList.add("dark");
+          }
+        } catch (error) {
+          document.documentElement.classList.add("dark");
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-C9GVgRMe.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CwwB3cwF.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
